@@ -15,7 +15,7 @@ This **Auto Cut-Off System for Soldering Irons**, designed for simple **AC solde
 
 ## ⚡ Connections
 |       **Component**       |  **Arduino Nano Pin**  |              **Notes**               |
-|:--------------------------|:-----------------------|:-------------------------------------|
+|:--------------------------|:------------------------|:-------------------------------------|
 | Relay Module              | D5                     | Controls the soldering iron power    |
 | Stand Detection Pin       | D6                     | Detects when the iron is in the stand (when pull-to-ground) by connecting this pin to the stand. |
 | Rotary Encoder (CLK, DT)  | D2, D3                 | For adjusting timer values          |
