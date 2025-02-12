@@ -13,6 +13,7 @@ This **Auto Cut-Off System for Soldering Irons**, designed for simple **AC solde
 
 ---
 
+## ⚡ Connections
 |       **Component**       | **Arduino Nano Pin** |              **Notes**               |
 |:--------------------------|:---------------------|:-------------------------------------|
 | Relay Module              | D5                   | Controls the soldering iron power    |
