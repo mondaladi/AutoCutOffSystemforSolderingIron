@@ -1,3 +1,8 @@
+
+# Project Title
+
+A brief description of what this project does and who it's for
+
 # 🔥 Auto Cut-Off System for Soldering Iron  
 
 This **Auto Cut-Off System for Soldering Irons**, designed for simple **AC soldering irons without temperature control mechanism**, improves safety and energy efficiency. It automatically cuts off power based on user-set timers or when the iron is detected in its stand for a specific duration. This helps prevent overheating and potential hazards, effectively turning a basic soldering iron into a safer, more efficient soldering station.
@@ -27,21 +32,21 @@ This **Auto Cut-Off System for Soldering Irons**, designed for simple **AC solde
 ---
 
 ## 🐞 Issues  
-The system occasionally resets when the soldering iron is turned on via the relay. This occurs due to a sudden current surge when the soldering iron is connected as the load, causing brief voltage dips that reset the microcontroller. Notably, the system operates normally without any resets when the soldering iron is not connected as the load.
+The **system occasionally resets when the soldering iron is turned on** via the relay. This occurs due to a sudden **current surge** when the soldering iron is connected as the load, causing brief voltage dips that **resets the microcontroller**. Notably, the system operates normally without any resets when the soldering iron is not connected as the load.
 
 #### ***Solutions:*** 
-- Use a Solid State Relay (SSR) with at least 2A load capacity, as SSRs are more stable, efficient, faster, and durable compared to mechanical relays.
+- Use a **Solid State Relay (SSR)** with at least 2A load capacity, as SSRs are more stable, efficient, faster, and durable compared to mechanical relays.
 
-- Upgrade the power supply to a 5V, 5W module to handle current surges more effectively than the standard 5V, 3W module.
+- Upgrade the power supply to a **5V, 5W module** to handle current surges more effectively than the standard 5V, 3W module.
 
-- Add a 100μF electrolytic capacitor across the power supply output terminals to smooth out voltage fluctuations and prevent microcontroller resets. 
+- Add a **100μF electrolytic capacitor** across the power supply output terminals to smooth out voltage fluctuations and prevent microcontroller resets. 
 
 ---
 
 ## 🌟 Future Improvements  
-- Integrate an OLED display to replace the 16x2 LCD, offering a smaller footprint, higher contrast, and more display flexibility.
+- Integrate an **OLED display** to replace the 16x2 LCD, offering a smaller footprint, higher contrast, and more display flexibility.
 
-- Introduce an adjustable stand timer, allowing users to modify the soldering-in-stand timer (currently fixed at 5 minutes) through the encoder without changing the code.
+- Introduce an adjustable stand timer, allowing users to modify the **soldering iron-in-stand timer** (currently fixed at 5 minutes) through the encoder without changing the code.
 
 ---
 
