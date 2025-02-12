@@ -1,4 +1,6 @@
-# 🔥 Auto Cut-Off System for Soldering Iron  
+# 🔥 Auto Cut-Off System for Soldering Iron 
+
+![1733845373900](https://github.com/user-attachments/assets/4986df6e-f328-40d9-bfc0-66eab116373d)
 
 This **Auto Cut-Off System for Soldering Irons**, designed for simple **AC soldering irons without temperature control mechanism**, improves safety and energy efficiency. It automatically cuts off power based on user-set timers or when the iron is detected in its stand for a specific duration. This helps prevent overheating and potential hazards, effectively turning a basic soldering iron into a safer, more efficient soldering station.
 
