@@ -24,6 +24,9 @@ This **Auto Cut-Off System for Soldering Irons**, designed for simple **AC solde
 | Power Supply (5V)         | VIN, GND               | External 5V module recommended       |
 | Soldering Iron (Earth)    | GND                    | Connect Arduino GND to the iron’s earth pin for proper stand detection. |
 
+***Note:***
+In the connection diagram, a push button is used to simulate the soldering iron-in-stand detection logic. I used two 1N4007 diodes in forward bias—one after pin D6 and another with a 1 kΩ current-limiting resistor before GND. This setup prevents false detections and ensures stable operation of the detection logic. Without these diodes, AC noise can couple into the detection circuit, causing false triggers. 
+
 ---
 
 ## 🐞 Issues  
