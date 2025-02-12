@@ -13,16 +13,14 @@ This **Auto Cut-Off System for Soldering Irons**, designed for simple **AC solde
 
 ---
 
-## ⚡ Connections  
-
-| **Component**            | **Arduino Nano Pin**     | **Notes**                            |
-|:---:                     |:---:                     |:---:                                 |
-| Relay Module             | D5                       | Controls the soldering iron power    |
-| Stand Detection Pin      | D6                       | Detects when the iron is in the stand (pull-to-ground) |
-| Rotary Encoder (CLK, DT) | D2, D3                   | For adjusting timer values          |
-| Encoder Button           | D4                       | For selecting and confirming settings |
-| 16x2 LCD (I2C)           | A4 (SDA), A5 (SCL)       | I2C communication with LCD          |
-| Power Supply (5V)        | VIN, GND                 | External 5V module recommended       |
+|       **Component**       | **Arduino Nano Pin** |              **Notes**               |
+|:--------------------------|:---------------------|:-------------------------------------|
+| Relay Module              | D5                   | Controls the soldering iron power    |
+| Stand Detection Pin       | D6                   | Detects when the iron is in the stand (pull-to-ground) |
+| Rotary Encoder (CLK, DT)  | D2, D3               | For adjusting timer values          |
+| Encoder Button            | D4                   | For selecting and confirming settings |
+| 16x2 LCD (I2C)            | A4 (SDA), A5 (SCL)   | I2C communication with LCD          |
+| Power Supply (5V)         | VIN, GND             | External 5V module recommended       |
 
 ---
 
