@@ -1,6 +1,6 @@
 # 🔥 Auto Cut-Off System for Soldering Iron 
 
-This **Auto Cut-Off System for Soldering Irons**, designed specifically for simple **AC soldering irons without temperature control mechanism**. It automatically cuts off power based on user-set timers or when the iron is detected in its stand for a specific duration. This helps prevent overheating and potential hazards, effectively turning a basic soldering iron into a safer, more efficient soldering station. 
+The **Auto Cut-Off System for Soldering Iron** is designed specifically for simple **AC soldering irons without a temperature control mechanism**. It automatically cuts off power based on user-set timers or when the iron is detected in its stand for a specific duration. This indirectly allows the user to **regulate the soldering iron’s temperature**, preventing overheating and potential hazards. By adding this functionality, a basic soldering iron is transformed into a safer and more efficient soldering station.
 
 ***Note:*** 
 **Make sure that your soldering iron is earthed**.  If the plug of the iron lacks an earth pin, the stand detection logic won't function. If it has an earth pin, use a multimeter to check continuity between the earth pin and the metal heating element.  If there's continuity (a beep), the iron is earthed, and the logic will work.
