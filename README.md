@@ -7,6 +7,14 @@ This **Auto Cut-Off System for Soldering Iron** is designed specifically for sim
 
 ---
 
+## ✨ New Version Available: **SolderSync V2**
+> 🔽 Download the updated code here:
+> 👉 [`soldersync-v2.ino`](https://github.com/mondaladi/AutoCutOffSystemforSolderingIron/releases/download/V2.0/soldersync-v2.ino) (included in the [latest release](https://github.com/mondaladi/AutoCutOffSystemforSolderingIron/releases))
+
+Check out the full release notes for details.
+
+---
+
 ## 🚀 Features  
 - **Auto Power Cut-Off:** Automatically turns off the soldering iron based on timers or inactivity detection.  
 - **Dual Timer Settings:** Adjustable on-time and off-time via a rotary encoder.  
